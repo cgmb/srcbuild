@@ -11,7 +11,7 @@ curl -L "$url" | tar -zx
 cd "$name"
 
 install_dir="$HOME/opt/qt-$version"
-./configure -prefix "$install_dir" -opensource -confirm-license -optimized-qmake -nomake examples -nomake tests -no-webkit
+./configure -prefix "$install_dir" -opensource -confirm-license -optimized-qmake -nomake examples -nomake tests
 make -j 4
 make install
 
