@@ -1,0 +1,2 @@
+University of Calgary CPSC Lab
+Fedora 20 - no root permissions
